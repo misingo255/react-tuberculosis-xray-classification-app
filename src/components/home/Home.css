@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+  
+.content {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+  }
+  
+.image_container {
+    margin-bottom: 20px;
+    border: 2px dashed black;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.preview_image {
+  width: 300px;
+  height: 350px;
+  }
+  
+.custom_button {
+  width: 300px;
+  }
+  
+.d-none {
+    display: none;
+  }
+  
