@@ -26,9 +26,9 @@ export const Results = () => {
 
           <div className="results_container">
               <div className="results_image">
-                  {location.state.data === "notumor" ? (
+                  {location.state.data === "normal" ? (
                     <img src={OkImage} alt="Result" className="the_image" />
-                  ) : location.state.data === "tumor" ? (
+                  ) : location.state.data === "tuberculosis" ? (
                     <img src={WarningImage} alt="Result" className="the_image" />
                   ) : (
                     <img src={WarningImage} alt="Result" className="the_image" />
@@ -36,11 +36,11 @@ export const Results = () => {
               </div>
               <div className="results_caption">
                   <p className="the_caption" style={{ fontWeight: "bold" }}>
-                      {location.state.data === "notumor"
-                      ? "Cool!! The Person Have No Brain Tumor!!"
-                      : location.state.data === "tumor"
-                      ? "Oops!! The Person Has Malignant Brain Tumor, That's Bad!!"
-                      : "Oops!! This is not even a brain x-ray, better select a proper brain x-ray!!"
+                      {location.state.data === "normal"
+                      ? "Cool!! The Person Doesn't have Tuberculosis (TB)!!"
+                      : location.state.data === "tuberculosis"
+                      ? "Oops!! The Person Has Tuberculosis, That's Bad!!"
+                      : "Oops!! This is not even a chest x-ray, better select a proper chest x-ray!!"
                       }
                   </p>
               </div>

@@ -2,6 +2,8 @@
 
 This project is a React application built with Vite that utilizes machine learning to classify tuberculosis (TB) X-ray images into two categories: TB present and TB absent. 
 
+![Skin Cancer Image Classification App](./images/screenshot.png)
+
 ## Features
 
 - **Image Classification**: The app employs a machine learning model to classify tuberculosis X-ray images accurately.
@@ -19,12 +21,12 @@ Before running the application, ensure you have the following installed:
 
 1. **Clone the Repository**: 
     ```bash
-    git clone https://github.com/your-username/tuberculosis-xray-app.git
+    git clone https://github.com/misingo255/react-tuberculosis-xray-classification-app.git
     ```
 
 2. **Navigate to the Project Directory**:
     ```bash
-    cd tuberculosis-xray-app
+    cd react-tuberculosis-xray-classification-app
     ```
 
 3. **Install Dependencies**:
